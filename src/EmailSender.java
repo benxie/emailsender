@@ -34,7 +34,7 @@ public class EmailSender
       }
 
       // Send MAIL FROM command.
-      command = "MAIL FROM: xie@bouncex.com\r\n";
+      command = "MAIL FROM: mao@gov.cn\r\n";
       System.out.print(command);
       os.write(command.getBytes("US-ASCII"));
       response = br.readLine();
@@ -44,7 +44,7 @@ public class EmailSender
       }
 
       // Send RCPT TO command.
-      command = "RCPT TO: hx324@nyu.edu\r\n";
+      command = "RCPT TO: test@nyu.edu\r\n";
       System.out.print(command);
       os.write(command.getBytes("US-ASCII"));
       response = br.readLine();
